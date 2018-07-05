@@ -6,7 +6,7 @@ public class Item {
 	private int id;
 	private String emailid;	
 	
-	public Item(String name, int id, String emailid) {
+	public Item(String name, int id, String emailid, String uuid) {
 		super();
 		this.name = name;
 		this.id = id;

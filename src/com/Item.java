@@ -4,12 +4,13 @@ public class Item {
 
 	private String name;
 	private int id;
+	private Sting emailid;	
 	
-	
-	public Item(String name, int id) {
+	public Item(String name, int id, String emailid) {
 		super();
 		this.name = name;
 		this.id = id;
+		this.emailid = emailid;
 	}
 	public String getName() {
 		return name;
@@ -23,7 +24,14 @@ public class Item {
 	public void setId(int id) {
 		this.id = id;
 	}
+	public int getEmailid() {
+		return emailid;
+	}
+	public void setEmailid(int emailid) {
+		this.emailid = emailid;
+	}
 	
-	
+
+		
 	
 }

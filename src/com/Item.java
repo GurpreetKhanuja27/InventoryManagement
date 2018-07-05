@@ -4,7 +4,7 @@ public class Item {
 
 	private String name;
 	private int id;
-	private Sting emailid;	
+	private String emailid;	
 	
 	public Item(String name, int id, String emailid) {
 		super();
@@ -24,10 +24,10 @@ public class Item {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public int getEmailid() {
+	public String getEmailid() {
 		return emailid;
 	}
-	public void setEmailid(int emailid) {
+	public void setEmailid(String emailid) {
 		this.emailid = emailid;
 	}
 	
